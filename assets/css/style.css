@@ -40,6 +40,11 @@
     letter-spacing: 0;
 }
 
+.note{
+    font-weight: 800;
+    color: #036;
+}
+
 .p-all{
     padding: 20px 30px;
 }
