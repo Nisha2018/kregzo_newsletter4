@@ -2,10 +2,6 @@
     font-family: Arial, sans-serif;
 }
 
-.noto {
-    font-family: 'Noto Serif', Georgia, serif;
-}
-
 .raleway {
     font-family: 'Raleway', sans-serif;
 }
@@ -23,7 +19,6 @@
 .info {
     font-size: 15px;
     line-height: 2;
-    text-transform: capitalize;
     letter-spacing: 1px;
     color: #fff;
     margin-bottom: 0px;
@@ -38,6 +33,7 @@
     color: #0A0A0A;
     line-height: 1.6;
     letter-spacing: 0;
+    text-align: justify;
 }
 
 .p-all{
@@ -77,16 +73,12 @@ table.button table td a {
 }
 
 table.button table td.btn2 {
-    background: transparent;
-    border: 2px solid #f90;
-    color: #f90;
-    /*border: 1px solid transparent;
-    background: #f90;*/
+   /* background: transparent;
+    border: 2px solid #f90;*/
+    color: #fff;
+    border: 1px solid transparent;
+    background: #f90;
     letter-spacing: 2px;
-}
-
-table.button table td.btn2 a{
-     color: #00acbb;
 }
 
 table.button table td.btn2 a {
@@ -142,8 +134,8 @@ table.button table td.btn2 a {
     transition: all 0.3s linear;
 }
 
-.note p {
-    font-size: 12px;
+.note{
+    color: #f90;
 }
 
 a,
